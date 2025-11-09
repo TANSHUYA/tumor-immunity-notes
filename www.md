@@ -1,26 +1,26 @@
-# 机体抗肿瘤免疫应答 — 思维导图
+# 🧬 机体抗肿瘤免疫应答 — 思维导图
 
 ```mermaid
 mindmap
   root((机体抗肿瘤免疫应答))
     细胞免疫
-      CD8+_CTL["CD8⁺ CTL\n识别: pMHC-I\n激活: DC + CD4⁺(IL-2, IL-12)\n杀伤: 穿孔素/颗粒酶; Fas/FasL; TNF"]
-      CD4_Th["CD4⁺ Th\n帮助 CTL 激活\n分泌细胞因子→激活 Mφ、NK\n少数直接杀伤"]
-      NK["NK 细胞\n识别: MHC I 缺失\n杀伤: 自然杀伤; ADCC (FcγRIII)"]
-      Macrophage["巨噬细胞 (Mφ)\n吞噬; TNF-α; ADCC; APC"]
-      gamma_delta["γδ T 细胞\n直接杀伤; 分泌细胞因子"]
+      CD8+_CTL["CD8⁺ CTL<br>识别: pMHC-I<br>激活: DC + CD4⁺ Th (IL-2, IL-12)<br>杀伤: 穿孔素/颗粒酶; Fas/FasL; TNF"]
+      CD4_Th["CD4⁺ Th<br>激活 CTL<br>分泌细胞因子→激活 Mφ、NK<br>部分可直接杀伤"]
+      NK["NK 细胞<br>识别: MHC I 缺失肿瘤<br>杀伤: 自然杀伤; ADCC (FcγRIII)"]
+      Macrophage["巨噬细胞 (Mφ)<br>吞噬; 分泌 TNF-α<br>ADCC; 抗原提呈 (APC)"]
+      gamma_delta["γδ T 细胞<br>直接杀伤; 分泌细胞因子"]
     体液免疫
-      Antibody["抗体 (Ab)\n中和; 调理吞噬; ADCC; CDC; 封闭受体"]
-      Complement["补体\nCDC; 调理 (C3b)"]
+      Antibody["抗体 (Ab)<br>中和; 调理吞噬; ADCC; CDC; 封闭受体"]
+      Complement["补体系统<br>CDC; 调理作用 (C3b)"]
     非特异性免疫
-      Innate["先天免疫要素\nNK / Mφ / γδ T / 细胞因子网络 / 补体"]
+      Innate["NK / Mφ / γδ T / 补体 / 细胞因子网络<br>先天防御作用"]
     免疫逃逸
-      EscapeMechanisms["逃逸机制\n抗原丢失/调变; MHC I 下调; 缺乏共刺激; 分泌抑制因子(TGF-β, IL-10);\n诱导 AICD; 抗凋亡(Bcl-2); 肿瘤微环境(Treg, TAM, MDSC)"]
+      EscapeMechanisms["肿瘤免疫逃逸机制<br>抗原丢失或调变<br>MHC I 下调<br>缺乏共刺激信号<br>分泌抑制因子 (TGF-β, IL-10)<br>诱导 AICD<br>表达抗凋亡分子 (Bcl-2)<br>免疫抑制微环境 (Treg, TAM, MDSC)"]
     免疫治疗
-      Checkpoint["检查点抑制剂\n抗 PD-1/PD-L1; 抗 CTLA-4"]
-      CellTherapy["细胞疗法\nCAR-T / TCR-T / TIL / LAK"]
-      Vaccines["肿瘤疫苗\n主动免疫策略"]
-      CytokineTherapy["细胞因子疗法\nIL-2, IFN-α 等"]
-      TargetedAb["抗体靶向治疗\nHer2, CD20 等"]
+      Checkpoint["免疫检查点抑制剂<br>抗 PD-1/PD-L1<br>抗 CTLA-4"]
+      CellTherapy["细胞治疗<br>CAR-T / TCR-T / TIL / LAK"]
+      Vaccines["肿瘤疫苗<br>激活特异性免疫反应"]
+      CytokineTherapy["细胞因子疗法<br>IL-2, IFN-α 等"]
+      TargetedAb["抗体靶向治疗<br>Her2, CD20 等单抗"]
     互作网络
-      Network["关键互作\nDC → CD4⁺ Th → CD8⁺ CTL\nCD4⁺ Th → 激活 Mφ / NK\nAb → NK (ADCC)\nAb → 补体 (CDC)\n细胞因子 → 多种细胞激活"]
+      Network["免疫细胞互作<br>DC → CD4⁺ Th → CD8⁺ CTL<br>CD4⁺ Th → 激活 Mφ / NK<br>Ab → NK (ADCC)<br>Ab → 补体 (CDC)<br>细胞因子 → 激活多种免疫细胞"]
